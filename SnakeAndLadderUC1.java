@@ -1,6 +1,5 @@
 public class SnakeAndLadderUC1 {
 	public static void main(String[] args) {
-		int numOnDice= (int) Math.floor((Math.random() * 10) % 6 + 1);
-		System.out.println( "Player rolled dice at starting postion 0 and got number: " +numOnDice);
-	}
+		System.out.println( "Snake and Ladder game played with single player at start postion 0");
+		}
 }
